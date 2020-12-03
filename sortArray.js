@@ -1,1 +1,1 @@
-sortArray = arr => { return arr.sort() }
+const sortArray = arr => arr.sort((a, b) => a - b)
